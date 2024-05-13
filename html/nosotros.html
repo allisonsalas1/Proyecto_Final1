@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros </title>
+    <link rel="stylesheet" href="../Inicio/css/styles.css"> 
+    
+    <style>
+       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Diferente style para "Conoce a Nuestro Equipo" */
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 5px 0;
+}
+
+.team-member p {
+    margin: 0;
+}
+
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+         <!-- Navigation-->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../Inicio/inicio.php">Rakun Fitness Equipment</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../html/inicio.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../html/nosotros.html">Sobre nosotros</a></li>
+                    </ul>
+                    <form class="d-flex" action="../html/sesion_inicio.html">
+                        <button class="btn btn-outline-dark" type="submit">
+                            Cerrar sesion
+                            <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                        </button>
+                    </form>
+                    <form class="d-flex" action="../carrito_compras/carrito.php">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5" style="background-image: url('../Crossfit/CrossFit1.jpeg'); background-size: cover; background-position: center;"> 
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Sobre Nosotros</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Todo tipo de producto para tu entrenamiento
+                </div>
+            </div>
+        </header>
+    <main>
+        <section class="about-us-section">
+            <h2>Quiénes Somos</h2>
+            <p>Somos una tienda en línea especializada en productos de entrenamiento de CrossFit. Nos apasiona ayudar a los atletas de todos los niveles a alcanzar sus objetivos de fitness y rendimiento.</p>
+        </section>
+        
+        <section class="our-values-section">
+            <h2>Nuestros Valores</h2>
+            <ul>
+                <li>Compromiso con la calidad: Seleccionamos cuidadosamente los productos que ofrecemos para garantizar que cumplan con los más altos estándares de calidad y durabilidad.</li>
+                <li>Excelencia en el servicio al cliente: Nos esforzamos por brindar una excelente experiencia de compra a nuestros clientes, desde la navegación en nuestro sitio web hasta la entrega de los productos.</li>
+                <li>Comunidad de CrossFit: Nos consideramos parte de la comunidad de CrossFit y estamos comprometidos con su crecimiento y desarrollo. Apoyamos eventos y competiciones locales y promovemos un estilo de vida activo y saludable.</li>
+            </ul>
+        </section>
+        
+        <section class="meet-the-team-section">
+            <h2>Conoce a Nuestro Equipo</h2>
+            <div class="Miembro del equipo">
+                <img src="../Crossfit/fotoyo.png" alt="Miembro del Equipo">
+                <h3>Allison Salas</h3>
+                <p>Lleva 2 años en el deporte.</p>
+            </div>
+        </section>
+    </main>
+ <!-- Footer-->
+ <footer class="py-5 bg-dark">
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+</footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
